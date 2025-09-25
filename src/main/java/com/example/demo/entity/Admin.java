@@ -5,7 +5,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "control")
+@Table(name = "approver")
 public class Admin {
     @Id
     private String adminId;
